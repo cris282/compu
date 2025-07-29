@@ -1,0 +1,175 @@
+/* From Uiverse.io by Praashoo7 */ 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: hsl(0, 1%, 32%);
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: hsl(0, 25%, 86%);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+}
+#log{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}
+#logs{
+        height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    left: 17%;
+    top: 20%;
+}
+.fondo-remolacha {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+  background: linear-gradient(145deg, #77cbb9, #598f8b);
+}
+
+/* Zanahorias redondas con sabor a ciudad */
+.zanahoria {
+  position: absolute;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border: 5px solid #599086;
+}
+
+.zanahoria1 {
+  width: 300px;
+  height: 300px;
+  top: 10%;
+  left: 2%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ainkawa_churches.jpg/1024px-Ainkawa_churches.jpg');
+}
+
+.zanahoria2 {
+  width: 300px;
+  height: 300px;
+  top: 5%;
+  right: 2%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ainkawa_churches.jpg/1024px-Ainkawa_churches.jpg');
+}
+
+.zanahoria3 {
+  width: 300px;
+  height: 300px;
+  bottom: 5%;
+  left: 0%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Erbil_City_Center.jpg/1024px-Erbil_City_Center.jpg');
+}
+
+.zanahoria4 {
+  width: 300px;
+  height: 300px;
+  bottom: 0%;
+  right: 0%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Umayyad_Mosque.jpg/1024px-Umayyad_Mosque.jpg');
+}
